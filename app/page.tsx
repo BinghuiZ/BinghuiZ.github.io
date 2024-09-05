@@ -76,7 +76,7 @@ export default function Home() {
       </section>
 
       <section id="skills" className="min-h-screen py-16 px-4">
-        <h2 className="text-4xl font-bold mb-12 text-center">I'm really good at</h2>
+        <h2 className="text-4xl font-bold mb-12 text-center">I&apos;m really good at</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-4xl mx-auto">
           <SkillCategory
             title="Frontend Engineering"

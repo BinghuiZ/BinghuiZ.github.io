@@ -48,6 +48,9 @@ jobs:
           git commit -m "Update package-lock.json" || echo "No changes to commit"
           git push origin ${{ github.ref }}
 
+      - name: Lint
+        run: npm run lint
+
       - name: Build with Next.js
         run: npx next build
 
